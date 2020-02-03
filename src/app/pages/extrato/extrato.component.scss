@@ -1,0 +1,70 @@
+body{
+  background-color: #eee!important;
+}
+
+.login-wrapper{
+  margin: auto;
+  background-color: #EEEEEE;
+}
+.box{
+  background:#495057;
+  color: #fff;
+  transform:scale(1);
+  -webkit-transform:scale(1);
+  -ms-transform:scale(1);
+  z-index:5;
+  margin: auto;
+  border-radius: 0px;
+}
+.login-wrapper mat-card-header{text-align:center;width:100%;display:block;font-weight:700;}
+.login-wrapper mat-card-content{text-align:center;}
+.login-wrapper mat-card-header mat-card-title{font-size:30px;margin:0;}
+.login-wrapper .mat-card{padding:40px 70px 50px;}
+
+
+.result-card {
+  margin-top: -20px;
+  max-width: 600px;
+  z-index: 10;
+}
+.result-card i {
+  font-size: 24px;
+  color: green;
+  margin-right: 15px;
+  // margin-top: 10px;
+}
+.main-card{
+  display: flex;
+  justify-content: space-around;
+  background-color: #EEEEEE;
+  margin-bottom: 50px;
+}
+.mat-card mat-card-subtitle {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.box-content{
+  width: 900px;
+  height:50vh;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #EEEEEE;
+  box-shadow: none;
+}
+
+.box-content mat-card-subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+.mat-painator{
+  box-shadow: 0 5px 5px -3px rgba(0,0,0,0), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+}
+
+
+
